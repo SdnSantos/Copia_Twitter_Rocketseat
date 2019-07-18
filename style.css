@@ -20,7 +20,7 @@ button {
 }
 
 .content {
-  max-width: 950px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 30px;
 }
@@ -221,7 +221,7 @@ div.wrapper-content aside.profile ul {
   list-style: none;
 }
 
-div.wrapper-content aside.profile li {
+div.wrapper-content aside.profile ul.list li {
   font-size: 14px;
   color: #657786;
   display: flex;
@@ -229,11 +229,11 @@ div.wrapper-content aside.profile li {
   margin-top: 5px;
 }
 
-div.wrapper-content aside.profile li::first-child {
+div.wrapper-content aside.profile ul.list li:first-child {
   margin-top: 0;
 }
 
-div.wrapper-content aside.profile li img {
+div.wrapper-content aside.profile ul.list li img {
   margin-right: 10px;
 }
 
@@ -264,8 +264,8 @@ div.wrapper-content aside.profile .followers ul li {
   width: 45px;
   background: #d0d5d9;
   border-radius: 50%;
-  flex-shrink: 0;
-  margin: 5px 0 10px;
+  flex: 1 0 auto;
+  margin: 0 5px 10px 0;
 }
 
 div.wrapper-content aside.profile .images ul {
@@ -275,9 +275,10 @@ div.wrapper-content aside.profile .images ul {
 }
 
 div.wrapper-content aside.profile .images ul li {
-  height: 80 px;
+  height: 80px;
   width: 80px;
   background: #d0d5d9;
-  flex-shrink: 0;
-  margin: 0 5px 10px;
+  border-radius: 8px;
+  flex: 1 0 auto;
+  margin: 0 5px 5px 0;
 }
